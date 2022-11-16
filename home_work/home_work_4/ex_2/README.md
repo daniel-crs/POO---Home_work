@@ -1,18 +1,19 @@
-## Getting Started
+## HeartRates Program
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Ao fazer exercícios físicos, você pode utilizar um monitor de frequência cardíaca para ver se sua frequência permanece dentro de um intervalo seguro sugerido pelos seus treinadores e médicos. Crie uma classe chamada HeartRates para verificar a sua frequência cardíaca máxima e a frequência cardíaca alvo da pessoa.
 
-## Folder Structure
+## Attributes
 
-The workspace contains two folders by default, where:
+String name, last-name;
+int year, month, day;
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## Destaque
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+Sua classe deve ter um construtor que receba esses dados como parâmetros. Para cada atributo forneça métodos set e get.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## Methods
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+1 -> Calcule e retorne a idade.
+2 -> Calcule e retorne a frequência cardíaca máxima (frequência cardíaca máxima é 220 menos a idade em anos).
+3 -> Calcule e retorne a frequência cardíaca alvo da pessoa (frequência cardíaca alvo é um intervalo entre 50-85% da sua frequência cardíaca máxima).
+4 -> Imprima as informações a partir desse objeto (nome, sobrenome e data de nascimento da pessoa).
